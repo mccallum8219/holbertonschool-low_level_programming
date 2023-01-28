@@ -1,5 +1,4 @@
-#!/bin/bash
-include <stdio.h>;
+# Include <stdio.h>;
 /**
 * main - main block
 * Return: o

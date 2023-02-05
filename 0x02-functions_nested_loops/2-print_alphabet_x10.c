@@ -1,20 +1,20 @@
 #include "main.h"
-
 /**
-  * print_alphabet -entry poing
-  *
-  * Return: Always 0
-  */
-
-void print_alphabet_x10(void)
-
+ * print_alphabet - prints from a-z 10x in lowercase
+ *
+ * Return: 0
+ */
+void print_alphabet(void)
 {
-  char c = 'a';
-
-  while (c <= 'z')
-    {
-      _putchar(c);
-      c++;
-    }
-  _putchar('/n');
+  char c, int x;
+	x = 0;
+	  {
+	   while (co < 10)
+	     }
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	x++;
+	_putchar('\n');
 }

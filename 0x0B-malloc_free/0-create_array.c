@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 #include <stdlib.h>
 /**
  * create array of size and assign char

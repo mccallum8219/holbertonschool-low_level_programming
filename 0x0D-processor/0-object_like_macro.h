@@ -1,7 +1,4 @@
-#ifndef OBJECT_LIKE_MACRO_H
-#define OBJECT_LIKE_MACRO_H
+#ifndef _HEADER_H
+#define _HEADER_H
 #define SIZE 1024
-
-int _putchar(char c);
-
 #endif

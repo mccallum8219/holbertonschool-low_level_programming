@@ -1,5 +1,11 @@
-#ifndef "lists_h"
-#define "lists_h"
+#ifndef LISTS_H
+#define LISTS_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stddef.h>
+
 
 /**
  * struct dlistint_s - doubly linked list
@@ -10,7 +16,7 @@
  * Description: doubly linked list node structure
  * 
  */
-typedef struct dlistint_s
+typedef struct dlistint_s;
 {
     int n;
     struct dlistint_s *prev;
@@ -26,5 +32,4 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 int sum_dlistint(dlistint_t *head);
 size_t print_dlistint_backward(const dlistint_t *h);
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
-
-#endif
+endif
